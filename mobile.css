@@ -1,0 +1,15 @@
+
+        /* For Mobile view */
+@media only screen and (max-width: 500px){
+    body{
+        background-color: red;
+    }
+}
+
+        /* For Tablet View */
+@media only screen and (max-width: 768px){
+    body{
+        background-color: red;
+    }
+}
+

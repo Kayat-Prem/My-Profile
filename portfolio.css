@@ -1,0 +1,72 @@
+.po-gallery {
+    width: 100%;
+    height: 90vh;
+    background: #E5E3E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.swiper {
+    width: 90%;
+    height: fit-content;
+}
+
+.swiper-wrapper {
+    width: 100%;
+}
+.swiper-slide{
+    margin: auto;
+}
+.swiper-slide img {
+    width: 70%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    filter: drop-shadow(10px 10px 10px gray);
+    opacity: 0.7;
+}
+.swiper-slide img:hover{
+    opacity: 1;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: #088F8F;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: white;
+}
+
+
+.namee{
+    position: absolute;
+    padding: 3px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(6, 118, 118, 0.5);
+    margin: 0;
+    top: 0;
+    font-size: 23px;
+    margin: 438px 0px 31px 426px;
+    width: 400px;
+    display: inline;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.buttons{
+    position: absolute;
+    padding: 5px;
+    color: white;
+    margin: 0;
+    top: 0;
+    margin: 444px 0px 0px 837px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: grey;
+    cursor: pointer;
+}

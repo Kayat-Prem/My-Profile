@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designer Kayat</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <a href="#" class="me">Kayat.</a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#"> Home </a></li>
+          <li><a href="#services"> Services </a></li>
+          <li><a href="#about"> About </a></li>
+          <li><a href="#" class="me"> Me.</a></li>
+          <li><a href="#portfolio"> Portfolio </a></li>
+          <li><a href="#client"> client </a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="cont"> Contact </a>
+    </header>
+
+    <div class="mee">
+      <div class="text-overlay">
+        <h1 class="its"><b>Hello,</b> this is</h1>
+        <p class="kayat"><b>Prem Kayat</b></p>
+        <h1 class="autotype">And I'm a <span class="auto-type"></span></h1>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+          var typed = new Typed(".auto-type", {
+            strings: ["Developer", "Coder", "Programmer", "Designer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+          });
+        </script>
+
+        <p class="bio">
+          Based on Crafting digital experiences through code and creativity.
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1hotEB1ZkD8HCmCEFc-qhzTHctUbgJDyy/view?usp=sharing"
+          target="blank"
+          class="resume"
+          >Resume</a
+        >
+        <a href="#footer" class="hire">Hire me</a>
+      </div>
+      <img src="images/face2.jpeg" alt="Profile Image" class="img-face" />
+    </div>
+
+    <br /><br /><br /><br /><br />
+    <h2 id="services" class="list">My Services</h2>
+    <div class="serv">
+      <div class="same">
+        <div class="bor">
+          <img src="images/ux.png" alt="Web Design Image" class="icon" />
+          <div>
+            <h3>Web design</h3>
+            Crafting digital experiences through intricate codes and creative
+            visions – my web design services give life to pixels, making your
+            online presence an immersive journey.
+          </div>
+        </div>
+
+        <div class="bor">
+          <img src="images/logo.png" alt="Brand & Logo Design" class="icon" />
+          <div>
+            <h3>Brand & Logo Design</h3>
+            Crafting Your Unique Identity: Elevate your brand's essence through
+            our meticulous and innovative logo designs that resonate deeply with
+            your values, aspirations, and target audience.
+          </div>
+        </div>
+      </div>
+
+      <div class="same">
+        <div class="bor">
+          <img src="images/design.png" alt="UI/UX design" class="icon" />
+          <div>
+            <h3>UI/UX Design</h3>
+            I specialize in transforming visionary concepts into visually
+            stunning user interfaces that not only catch the eye but also deeply
+            captivate the user's heart and imagination.
+          </div>
+        </div>
+
+        <div class="bor">
+          <img src="images/coding.png" alt="Web Development" class="icon" />
+          <div>
+            <h3>Web Development</h3>
+            Dive into the world of limitless possibilities with my web
+            development expertise. From concept to creation, I transform ideas
+            into captivating online experiences that leave a lasting impact.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="portfolio" class="list">My Portfolio</h2>
+
+    <div class="po-gallery">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/cms.png" alt="Clssroom Management System" class="img"> 
+                    <div class="content">
+                        <div class="namee">Classroom Management System</div>
+                        <button type="button" class="buttons">See more</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"> <img src="images/VisitorC.png" alt="Visitor Counter" class="img"> 
+                    <div class="content">
+                        <div class="namee">Visitor Counter</div>
+                        <!-- <div class="dis">Visitor Counter is a...</div> -->
+                        <button type="button" class="buttons">See more</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="images/calculator.png" alt="calculator" class="img">
+                    <div class="content">
+                        <div class="namee">Calculator Front-end</div>
+                        <button type="button" class="buttons">See more</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="images/Mobileapp.png" alt="Mobile App" class="img"> 
+                    <div class="content">
+                        <div class="namee">Travelling News Mobile App</div>
+                        <button type="button" class="buttons">See more</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="images/ems.png" alt="Expense Management System" class="img"> 
+                    <div class="content">
+                        <div class="namee">Expense Management System</div>
+                        <button type="button" class="buttons">See more</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        
+    
+        </div>
+      
+    </div>
+
+    <br /><br /><br />
+    <h2 class="list" id="about">Who Am I ?</h2>
+    <div class="aboutme">
+      <section>
+        <!-- <img src="images/face.JPG" alt="image" class="imgface">    -->
+      </section>
+      <div class="about">
+        <p class="abt1">I'm a <b>Web Developer.</b></p>
+        <br /><br />
+        <p class="abt2">
+          A clear understanding of <font style="color: #088F8F; font-size: 25px;"> Front-end development </font> and having a basic
+          knowledge of backend developments such as; Python Django, JAVA Spring,
+          database, PHP, etc. Motivated to learn, grow and excel in designing.
+        </p>
+        <br />
+
+        <u><a href="https://drive.google.com/file/d/1hotEB1ZkD8HCmCEFc-qhzTHctUbgJDyy/view?usp=sharing"
+          target="blank"> <b>Dowload resume</b></a></u>
+
+        <a class="cont" href="#contact"> Contact </a>
+      </div>
+    </div>
+
+    <br /><br /><br /><br /><br />
+    <h2 id="client" class="list">Clients</h2>
+    <div class="logos">
+      <img src="images/info-logo.png" alt="info-logo" class="logo" />
+      <img src="images/cotiviti.jpeg" alt="cotiviti" class="logo" />
+      <img src="images/fusemachine.png" alt="fusemachine" class="logo" />
+      <img src="images/logpoint.png" alt="logpoint" class="logo" />
+      <img src="images/leap.jpg" alt="leap" class="logo" />
+      <img src="images/f1soft.jpg" alt="f1soft" class="logo" />
+    </div>
+
+    <h2 id="contact" class="list">Contact Form</h2>
+    <div class="contact-form">
+      <form action="processform.php" method="post">
+        <div class="name">
+          <label for="firstName">
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="First name"
+              required
+            />
+          </label>
+
+          <label for="lastName">
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Last name"
+              required
+            />
+          </label>
+        </div>
+
+        <div>
+          <label for="email"> </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            rows="1"
+            cols="1"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="subject"> </label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject of the message"
+            required
+          />
+        </div>
+        <div>
+          <label for="message"> </label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Write Something ..."
+            required
+          ></textarea>
+        </div>
+
+        <input type="submit" class="submit" name="submit" value="submit" />
+      </form>
+    </div>
+    <br /><br /><br />
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="address">
+          <p>Get In Touch</p>
+          <div class="loc">
+            <img
+              src="images/location.png"
+              alt="location"
+              class="foot-icon1"
+            />Kathmandu, Nepal
+          </div>
+          <div class="loc">
+            <a href="mailto:imkayat7@gmail.com"
+              ><img src="images/email.png" alt="email" class="foot-icon1" />
+              imkayat7@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <div class="useful-links">
+          <p>Useful Links</p>
+          <div class="useful"><a href="#"> Home </a></div>
+          <div class="useful"><a href="#about"> About </a></div>
+          <div class="useful"><a href="#services"> Services </a></div>
+          <div class="useful"><a href="#portfolio"> Portfolio </a></div>
+          <div class="useful"><a href="#client"> Client </a></div>
+          <div class="useful"><a href="#contact"> Contact </a></div>
+        </div>
+
+        <div class="social">
+          <p>Follow Me</p>
+          <div class="useful">
+            <a
+              href="https://www.facebook.com/premkayatmagar"
+              target="blank"
+              alt="Facebook"
+              ><img
+                src="images/facebook.png"
+                alt="facebook"
+                class="footer-icon"
+            /></a>
+          </div>
+          <div class="useful">
+            <a
+              href="https://www.instagram.com/premkayat7/"
+              target="blank"
+              alt="Instagram"
+              ><img
+                src="images/instagram.png"
+                alt="instagram"
+                class="footer-icon"
+            /></a>
+          </div>
+          <div class="useful">
+            <a href="https://github.com/Kayat-Prem" target="blank" alt="Github"
+              ><img src="images/github.png" alt="github" class="footer-icon"
+            /></a>
+          </div>
+          <div class="useful">
+            <a
+              href="https://www.linkedin.com/in/prem-bahadur-kayat-b92a7a237/"
+              target="blank"
+              alt="LinkedIn"
+              ><img
+                src="images/linkedin.png"
+                alt="linkedin"
+                class="footer-icon"
+            /></a>
+          </div>
+        </div>
+
+        <div class="description">
+          <div>Description</div>
+          <div class="des">
+            "You can also follow me on social media for more updates. Feel free
+            to check out my projects and code on my GitHub account.
+            Alternatively, you can visit my LinkedIn profile to view my
+            accomplishments."
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <p class="copy">
+      Copyright &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      All rights reserved | Kayat
+    </p>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
