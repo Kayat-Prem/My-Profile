@@ -311,16 +311,17 @@ h3{
     text-shadow: 0px 0px 5px whitesmoke;
 }
 
-.aboutme u a{
+.dload{
     margin: 0px 40px;
     font-size: 20px;
     transition: all 0.3s ease-in-out 0.2s;
+    text-shadow: 0px 0px 5px #088F8F;
 }
-.aboutme u a:hover{
-    text-shadow: 5px 5px 10px #088F8F;
+.dload:hover{
+    text-shadow: 5px 5px 10px gray;
     font-size: 20.5px;
     margin-right: 35.5px;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 section{
@@ -344,6 +345,7 @@ section:before{
     background-position: center;
     mix-blend-mode: screen;
 }
+
 
                     /*  Clients */
 
